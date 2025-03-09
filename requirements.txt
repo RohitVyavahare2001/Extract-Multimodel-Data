@@ -1,0 +1,10 @@
+pdf2image
+pytesseract
+pdfplumber
+opencv-python
+pillow
+jsonlines
+fitz
+frontend
+tools
+pymupdf
