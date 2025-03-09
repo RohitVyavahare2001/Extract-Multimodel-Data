@@ -12,10 +12,15 @@ We use **Python and PyMuPDF (fitz)** to:
 
 ## 📂 Project Structure
 │── extracted_images/ # Folder where extracted images are stored
+
 │── static/ # (Optional) Folder for static files
+
 │── answer.py # Main script to extract data
+
 │── extracted_examples.json # Output JSON file with extracted data
+
 │── pre_algebra_sample.pdf # Input PDF file
+
 │── requirements.txt # Python dependencies
 
 
@@ -31,7 +36,9 @@ pip install -r requirements.txt
 python answer.py
 ```
 3️⃣ Output
+
 ✅ Extracted questions & solutions: extracted_examples.json
+
 ✅ Extracted images: Stored in extracted_images/
 
 
@@ -50,8 +57,10 @@ python answer.py
 
 ## 🎯 Key Features
 ✅ Automatically detects and extracts questions & solutions
+
 ✅ Saves images separately for better clarity
+
 ✅ Outputs structured JSON for further use
 
 
-You can directly **copy-paste** this into your project. Let me know if you need any modifications! 🚀
+### You can directly **copy-paste** this into your project. Let me know if you need any modifications! 🚀
