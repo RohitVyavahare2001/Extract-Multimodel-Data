@@ -12,17 +12,17 @@ We use **Python and PyMuPDF (fitz)** to:
 
 ## 📂 Project Structure
 ```bash
--│── extracted_images/ # Folder where extracted images are stored
+│── extracted_images/ # Folder where extracted images are stored
 
--│── static/ # (Optional) Folder for static files
+│── static/ # (Optional) Folder for static files
 
--│── answer.py # Main script to extract data
+│── answer.py # Main script to extract data
 
--│── extracted_examples.json # Output JSON file with extracted data
+│── extracted_examples.json # Output JSON file with extracted data
 
--│── pre_algebra_sample.pdf # Input PDF file
+│── pre_algebra_sample.pdf # Input PDF file
 
--│── requirements.txt # Python dependencies
+│── requirements.txt # Python dependencies
 
 ```
 
