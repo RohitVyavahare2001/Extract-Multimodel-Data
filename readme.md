@@ -11,17 +11,20 @@ We use **Python and PyMuPDF (fitz)** to:
 - 📂 Store the extracted data (**text + images**) in a **JSON file** for easy access.
 
 ## 📂 Project Structure
-│── extracted_images/ # Folder where extracted images are stored
+```bash
+-│── extracted_images/ # Folder where extracted images are stored
 
-│── static/ # (Optional) Folder for static files
+-│── static/ # (Optional) Folder for static files
 
-│── answer.py # Main script to extract data
+-│── answer.py # Main script to extract data
 
-│── extracted_examples.json # Output JSON file with extracted data
+-│── extracted_examples.json # Output JSON file with extracted data
 
-│── pre_algebra_sample.pdf # Input PDF file
+-│── pre_algebra_sample.pdf # Input PDF file
 
-│── requirements.txt # Python dependencies
+-│── requirements.txt # Python dependencies
+
+```
 
 
 ## 📌 How to Run
@@ -42,7 +45,7 @@ python answer.py
 ✅ Extracted images: Stored in extracted_images/
 
 
-📜 Example JSON Output
+## 📜 Example JSON Output
 ```bash
 [
     {
