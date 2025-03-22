@@ -1,4 +1,4 @@
-# 📄 PDF Question & Solution Extractor :
+# 📄 PDF Question & Solution Extractor 
 
 ## 🚀 Problem Statement
 Many educational PDFs contain math problems and solutions, but extracting them manually is time-consuming. The goal of this project is to **automatically extract questions, solutions, and images** from a given PDF and save them in a structured **JSON format**.
